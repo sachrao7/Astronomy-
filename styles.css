@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0c0c0c; /* Dark background color */
+    color: #ffffff; /* White text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header {
+    margin-top: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1, h2, h3 {
+    color: #66ccff; /* Light blue text color */
+  }
+  
+  span {
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #66ccff; /* Light blue background color */
+    color: #0c0c0c; /* Dark text color */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3385ff; /* Slightly darker blue on hover */
+  }
+  
+  img {
+    margin-top: 60px;
+    width: 75%; /* Adjust the size as needed */
+    height: 75%;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add more styling as needed */
