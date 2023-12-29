@@ -21,14 +21,18 @@ document.querySelector('#randomDate').addEventListener('click', function () {
         .then(res => res.json())
         .then(data => {
           console.log(data);
-  
+          document.querySelector('img').style.display = 'none';
+
           if (data.media_type == 'image') {
             document.querySelector('img').src = data.hdurl;
             document.querySelector('img').style.display = 'block';
   
   
-            document.querySelector('iframe').src = '';
+            document.querySelector('iframe').style.display='none'
           } else {
+            document.querySelector('img').style.display='none'
+            document.querySelector('iframe').style.display='block'
+
             document.querySelector('iframe').src = data.url;
           }
           document.querySelector('h2').innerText = data.title;
